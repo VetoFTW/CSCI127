@@ -1,0 +1,53 @@
+# Name: Martin Czarnecki
+# Email: martin.czarnecki99@myhunter.cuny.edu
+# Date: November 12, 2021
+
+# 77 73 80 83 32 105 115 32 99 111 111 108 33 0
+
+ADDI $sp, $sp, -14
+
+ADDI $t0, $zero, 77
+SB $t0, 0($sp)
+
+ADDI $t0, $zero, 73
+SB $t0, 1($sp)
+
+ADDI $t0, $zero, 80
+SB $t0, 2($sp)
+
+ADDI $t0, $zero, 83
+SB $t0, 3($sp)
+
+ADDI $t0, $zero, 32
+SB $t0, 4($sp)
+
+ADDI $t0, $zero, 105
+SB $t0, 5($sp)
+
+ADDI $t0, $zero, 115
+SB $t0, 6($sp)
+
+ADDI $t0, $zero, 32
+SB $t0, 7($sp)
+
+ADDI $t0, $zero, 99
+SB $t0, 8($sp)
+
+ADDI $t0, $zero, 111
+SB $t0, 9($sp)
+
+ADDI $t0, $zero, 111
+SB $t0, 10($sp)
+
+ADDI $t0, $zero, 108
+SB $t0, 11($sp)
+
+ADDI $t0, $zero, 33
+SB $t0, 12($sp)
+
+ADDI $t0, $zero, 0
+SB $t0, 13($sp)
+
+ADDI $v0, $zero, 4
+ADDI $a0, $sp, 0
+syscall

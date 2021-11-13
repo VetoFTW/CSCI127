@@ -1,0 +1,12 @@
+# Name: Martin Czarnecki
+# Email: martin.czarnecki99@myhunter.cuny.edu
+# Date: November 12, 2021
+
+# 100, 75, 50, 25, 0 
+
+ADDI $s0, $zero, 100 
+ADDI $s1, $zero, 25  
+AGAIN: SUB $s0, $s0, $s1
+BEQ $s0, $zero, DONE
+J AGAIN
+DONE:  #To break out of the loop

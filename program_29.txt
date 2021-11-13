@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Name: Martin Czarnecki
+# Email: martin.czarnecki99@myhunter.cuny.edu
+# Date: September 26, 2021
+
+echo "Hello CSCI127 Students!"
+echo "$USER is learning shell scripts!"

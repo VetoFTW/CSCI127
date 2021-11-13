@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Name: Martin Czarnecki
+# Email: martin.czarnecki99@myhunter.cuny.edu
+# Date: November 12, 2021
+
+git clone https://github.com/HunterCSci127/CSci127
+
+cd CSci127
+
+mkdir myprojectfiles
+mkdir pictures
+
+mv nestingPolygons.py myprojectfiles
+mv *.png pictures

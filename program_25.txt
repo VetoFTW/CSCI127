@@ -1,0 +1,5 @@
+# Name: Martin Czarnecki
+# Email: martin.czarnecki99@myhunter.cuny.edu
+# Date: October 9, 2021 
+
+out = (not(in1 and in2) and (in1 or in2)) or (in1 and in2)
